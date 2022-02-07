@@ -1,7 +1,6 @@
 //
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
-// @dart=2.7
 
 // ignore_for_file: unused_import
 
@@ -12,17 +11,17 @@ import 'package:built_value/serializer.dart';
 part 'identity_state.g.dart';
 
 class IdentityState extends EnumClass {
-
   /// The state can either be `active` or `inactive`.
   @BuiltValueEnumConst(wireName: r'active')
   static const IdentityState active = _$active;
+
   /// The state can either be `active` or `inactive`.
   @BuiltValueEnumConst(wireName: r'inactive')
   static const IdentityState inactive = _$inactive;
 
   static Serializer<IdentityState> get serializer => _$identityStateSerializer;
 
-  const IdentityState._(String name): super(name);
+  const IdentityState._(String name) : super(name);
 
   static BuiltSet<IdentityState> get values => _$values;
   static IdentityState valueOf(String name) => _$valueOf(name);
@@ -35,4 +34,3 @@ class IdentityState extends EnumClass {
 ///
 /// Trigger mixin generation by writing a line like this one next to your enum.
 abstract class IdentityStateMixin = Object with _$IdentityStateMixin;
-

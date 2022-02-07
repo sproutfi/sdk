@@ -1,7 +1,6 @@
 //
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
-// @dart=2.7
 
 // ignore_for_file: unused_import
 
@@ -12,20 +11,22 @@ import 'package:built_value/serializer.dart';
 part 'identity_credentials_type.g.dart';
 
 class IdentityCredentialsType extends EnumClass {
-
   /// and so on.
   @BuiltValueEnumConst(wireName: r'password')
   static const IdentityCredentialsType password = _$password;
+
   /// and so on.
   @BuiltValueEnumConst(wireName: r'totp')
   static const IdentityCredentialsType totp = _$totp;
+
   /// and so on.
   @BuiltValueEnumConst(wireName: r'oidc')
   static const IdentityCredentialsType oidc = _$oidc;
 
-  static Serializer<IdentityCredentialsType> get serializer => _$identityCredentialsTypeSerializer;
+  static Serializer<IdentityCredentialsType> get serializer =>
+      _$identityCredentialsTypeSerializer;
 
-  const IdentityCredentialsType._(String name): super(name);
+  const IdentityCredentialsType._(String name) : super(name);
 
   static BuiltSet<IdentityCredentialsType> get values => _$values;
   static IdentityCredentialsType valueOf(String name) => _$valueOf(name);
@@ -37,5 +38,5 @@ class IdentityCredentialsType extends EnumClass {
 /// corresponding Angular template.
 ///
 /// Trigger mixin generation by writing a line like this one next to your enum.
-abstract class IdentityCredentialsTypeMixin = Object with _$IdentityCredentialsTypeMixin;
-
+abstract class IdentityCredentialsTypeMixin = Object
+    with _$IdentityCredentialsTypeMixin;

@@ -1,7 +1,6 @@
 //
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
-// @dart=2.7
 
 // ignore_for_file: unused_import
 
@@ -19,8 +18,5 @@ void main() {
     test('to test the property `version`', () async {
       // TODO
     });
-
-
   });
-
 }
